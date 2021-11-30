@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+		 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ch.luschmar</groupId>
+	<artifactId>aoc-2021</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0-SNAPSHOT</version>
+	<modules>
+		<module>day-01</module>
+		<module>day-02</module>
+		<module>day-03</module>
+		<module>day-04</module>
+		<module>day-05</module>
+		<module>day-06</module>
+		<module>day-07</module>
+		<module>day-08</module>
+		<module>day-09</module>
+		<module>day-10</module>
+		<module>day-11</module>
+		<module>day-12</module>
+		<module>day-13</module>
+		<module>day-14</module>
+		<module>day-15</module>
+		<module>day-16</module>
+		<module>day-17</module>
+		<module>day-18</module>
+		<module>day-19</module>
+		<module>day-20</module>
+		<module>day-21</module>
+		<module>day-22</module>
+		<module>day-23</module>
+		<module>day-24</module>
+		<module>day-25</module>
+	</modules>
+
+	<properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+	</properties>
+
+</project>
