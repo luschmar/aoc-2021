@@ -10,7 +10,7 @@ public class Day02 {
 	
 	static void part1() {
 		  var br = new BufferedReader(new InputStreamReader(Day02.class.getClassLoader().getResourceAsStream("input1.txt")));
-		  String[] lines = br.lines().toArray(String[]::new);
+		  var lines = br.lines().toArray(String[]::new);
 		  
 		  int hpos = 0;
 		  int depth = 0;
@@ -31,7 +31,7 @@ public class Day02 {
 	
 	static void part2() {
 		  var br = new BufferedReader(new InputStreamReader(Day02.class.getClassLoader().getResourceAsStream("input1.txt")));
-		  String[] lines = br.lines().toArray(String[]::new);
+		  var lines = br.lines().toArray(String[]::new);
 		  
 		  int hpos = 0;
 		  int depth = 0;
