@@ -68,6 +68,12 @@ class Day05Test {
 		}
 		
 		boolean isDiagonal() {
+			return !isHorV();
+		}
+		/**
+	  	READ THE PUZZLE!!!
+		 
+		boolean isDiagonal() {
 			if(isHorV()) {
 				return false;
 			}
@@ -102,7 +108,7 @@ class Day05Test {
 			}
 			
 			return diagonal;
-		}
+		}**/
 		
 		int max() {
 			return Arrays.asList(x1, y1, x2, y2).stream().mapToInt(v -> v).max().getAsInt();
