@@ -3,7 +3,6 @@ import org.junit.jupiter.params.ParameterizedTest;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static java.lang.System.arraycopy;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class Day07Test {
