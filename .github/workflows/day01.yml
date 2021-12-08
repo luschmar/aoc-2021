@@ -3,7 +3,7 @@ on:
     branches:
       - "master"
 jobs:
-  build:
+  day-01:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -12,4 +12,4 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
         cache: 'maven'
-    - run: ./mvnw -fae test
+    - run: ./mvnw -Dtest=Day01Test -DfailIfNoTests=false test
