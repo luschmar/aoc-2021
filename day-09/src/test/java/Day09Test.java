@@ -53,9 +53,6 @@ public class Day09Test {
 				}
 			}
 		}
-		//int[][] heightmap = 
-		
-		long res = 2l;
 		assertEquals(solution, Integer.toString(riskLevel));
 	}
 
@@ -73,8 +70,7 @@ public class Day09Test {
 		for(int i = 0; i < intStreamArray.length; i++) {
 			heightmap[i] = ((IntStream)intStreamArray[i]).mapToObj(Character::toString).mapToInt(Integer::parseInt).toArray();
 		}
-		int riskLevel = 0;
-		List<Integer> basinList = new ArrayList<Integer>();
+		var basinList = new ArrayList<Integer>();
 		
 		for(int i = 0; i < heightmap.length; i++) {
 			for(int j = 0; j < heightmap[i].length; j++) {
@@ -100,7 +96,6 @@ public class Day09Test {
 				}
 			}
 		}
-		//int[][] heightmap = 
 		
 		var sorted = basinList.stream().mapToInt(Integer::intValue).sorted().toArray();
 		long res = sorted[sorted.length-1]*sorted[sorted.length-2]*sorted[sorted.length-3];
