@@ -62,7 +62,7 @@ public class Day09Test {
 	@ParameterizedTest
 	@AocFileSource(inputs = {
 			@AocInputMapping(input="test.txt", solution="1134"),
-			@AocInputMapping(input="input.txt", solution="fail")
+			@AocInputMapping(input="input.txt", solution="920448")
 	}
 	)
 	void part2(Stream<String> input, String solution) {
