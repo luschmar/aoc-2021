@@ -90,7 +90,9 @@ public class Day14Test {
 				.get();
 		var min = singleCharHistogram.entrySet().stream().min((e1, e2) -> Long.compare(e1.getValue(), e2.getValue()))
 				.get();
+		
 		System.out.println(max + " - " + min);
+		System.out.println(singleCharHistogram.entrySet().stream().mapToLong(e -> e.getValue()).sum());
 		var res = Math.subtractExact(max.getValue(), min.getValue());
 
 		assertEquals(solution, Long.toString(res));
